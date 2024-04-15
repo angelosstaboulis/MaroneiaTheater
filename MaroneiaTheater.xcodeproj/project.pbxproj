@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D6800C1B2BCD7AC700999D9A /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6800C1A2BCD7AC700999D9A /* DetailsView.swift */; };
+		D6800C1E2BCD82CD00999D9A /* Vortex in Frameworks */ = {isa = PBXBuildFile; productRef = D6800C1D2BCD82CD00999D9A /* Vortex */; };
+		D681AC4F2BCDD26200CFC226 /* Marquee in Frameworks */ = {isa = PBXBuildFile; productRef = D681AC4E2BCDD26200CFC226 /* Marquee */; };
+		D695FBC32BCD079500E2D5DA /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = D695FBC22BCD079500E2D5DA /* RealityKitContent */; };
+		D695FBC52BCD079500E2D5DA /* MaroneiaTheaterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D695FBC42BCD079500E2D5DA /* MaroneiaTheaterApp.swift */; };
+		D695FBC72BCD079500E2D5DA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D695FBC62BCD079500E2D5DA /* ContentView.swift */; };
+		D695FBC92BCD079700E2D5DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D695FBC82BCD079700E2D5DA /* Assets.xcassets */; };
+		D695FBCC2BCD079700E2D5DA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D695FBCB2BCD079700E2D5DA /* Preview Assets.xcassets */; };
+		D695FBD72BCD079800E2D5DA /* MaroneiaTheaterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D695FBD62BCD079800E2D5DA /* MaroneiaTheaterTests.swift */; };
+		D695FBE12BCD0F8100E2D5DA /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D695FBE02BCD0F8100E2D5DA /* HomeView.swift */; };
+		D695FBE32BCD100800E2D5DA /* Gallery.swift in Sources */ = {isa = PBXBuildFile; fileRef = D695FBE22BCD100800E2D5DA /* Gallery.swift */; };
+		D695FBE52BCD10A700E2D5DA /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = D695FBE42BCD10A700E2D5DA /* History.swift */; };
+		D695FBE72BCD10F800E2D5DA /* HistoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D695FBE62BCD10F800E2D5DA /* HistoryViewModel.swift */; };
+		D695FBEC2BCD187600E2D5DA /* HistoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D695FBEB2BCD187600E2D5DA /* HistoryModel.swift */; };
+		D695FBF02BCD1B9100E2D5DA /* WebVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D695FBEF2BCD1B9100E2D5DA /* WebVideo.swift */; };
+		D695FBF22BCD1BD200E2D5DA /* MediaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D695FBF12BCD1BD200E2D5DA /* MediaView.swift */; };
+		D695FBF62BCD1DDD00E2D5DA /* Publications.swift in Sources */ = {isa = PBXBuildFile; fileRef = D695FBF52BCD1DDD00E2D5DA /* Publications.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D695FBD32BCD079800E2D5DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D695FBB52BCD079500E2D5DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D695FBBC2BCD079500E2D5DA;
+			remoteInfo = MaroneiaTheater;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D6800C1A2BCD7AC700999D9A /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
+		D695FBBD2BCD079500E2D5DA /* MaroneiaTheater.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MaroneiaTheater.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D695FBC12BCD079500E2D5DA /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
+		D695FBC42BCD079500E2D5DA /* MaroneiaTheaterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaroneiaTheaterApp.swift; sourceTree = "<group>"; };
+		D695FBC62BCD079500E2D5DA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D695FBC82BCD079700E2D5DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D695FBCB2BCD079700E2D5DA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D695FBCD2BCD079700E2D5DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D695FBD22BCD079800E2D5DA /* MaroneiaTheaterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MaroneiaTheaterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D695FBD62BCD079800E2D5DA /* MaroneiaTheaterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaroneiaTheaterTests.swift; sourceTree = "<group>"; };
+		D695FBE02BCD0F8100E2D5DA /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		D695FBE22BCD100800E2D5DA /* Gallery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gallery.swift; sourceTree = "<group>"; };
+		D695FBE42BCD10A700E2D5DA /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
+		D695FBE62BCD10F800E2D5DA /* HistoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewModel.swift; sourceTree = "<group>"; };
+		D695FBEB2BCD187600E2D5DA /* HistoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryModel.swift; sourceTree = "<group>"; };
+		D695FBEF2BCD1B9100E2D5DA /* WebVideo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebVideo.swift; sourceTree = "<group>"; };
+		D695FBF12BCD1BD200E2D5DA /* MediaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaView.swift; sourceTree = "<group>"; };
+		D695FBF52BCD1DDD00E2D5DA /* Publications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Publications.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D695FBBA2BCD079500E2D5DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D681AC4F2BCDD26200CFC226 /* Marquee in Frameworks */,
+				D6800C1E2BCD82CD00999D9A /* Vortex in Frameworks */,
+				D695FBC32BCD079500E2D5DA /* RealityKitContent in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D695FBCF2BCD079800E2D5DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D695FBB42BCD079500E2D5DA = {
+			isa = PBXGroup;
+			children = (
+				D695FBBF2BCD079500E2D5DA /* MaroneiaTheater */,
+				D695FBC02BCD079500E2D5DA /* Packages */,
+				D695FBD52BCD079800E2D5DA /* MaroneiaTheaterTests */,
+				D695FBBE2BCD079500E2D5DA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D695FBBE2BCD079500E2D5DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D695FBBD2BCD079500E2D5DA /* MaroneiaTheater.app */,
+				D695FBD22BCD079800E2D5DA /* MaroneiaTheaterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D695FBBF2BCD079500E2D5DA /* MaroneiaTheater */ = {
+			isa = PBXGroup;
+			children = (
+				D695FBEA2BCD186400E2D5DA /* Model */,
+				D695FBE92BCD184F00E2D5DA /* ViewModel */,
+				D695FBE82BCD17F700E2D5DA /* View */,
+				D695FBC42BCD079500E2D5DA /* MaroneiaTheaterApp.swift */,
+				D695FBC62BCD079500E2D5DA /* ContentView.swift */,
+				D695FBC82BCD079700E2D5DA /* Assets.xcassets */,
+				D695FBCD2BCD079700E2D5DA /* Info.plist */,
+				D695FBCA2BCD079700E2D5DA /* Preview Content */,
+			);
+			path = MaroneiaTheater;
+			sourceTree = "<group>";
+		};
+		D695FBC02BCD079500E2D5DA /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				D695FBC12BCD079500E2D5DA /* RealityKitContent */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		D695FBCA2BCD079700E2D5DA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D695FBCB2BCD079700E2D5DA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D695FBD52BCD079800E2D5DA /* MaroneiaTheaterTests */ = {
+			isa = PBXGroup;
+			children = (
+				D695FBD62BCD079800E2D5DA /* MaroneiaTheaterTests.swift */,
+			);
+			path = MaroneiaTheaterTests;
+			sourceTree = "<group>";
+		};
+		D695FBE82BCD17F700E2D5DA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D695FBE02BCD0F8100E2D5DA /* HomeView.swift */,
+				D695FBE22BCD100800E2D5DA /* Gallery.swift */,
+				D695FBE42BCD10A700E2D5DA /* History.swift */,
+				D695FBEF2BCD1B9100E2D5DA /* WebVideo.swift */,
+				D695FBF12BCD1BD200E2D5DA /* MediaView.swift */,
+				D695FBF52BCD1DDD00E2D5DA /* Publications.swift */,
+				D6800C1A2BCD7AC700999D9A /* DetailsView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D695FBE92BCD184F00E2D5DA /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D695FBE62BCD10F800E2D5DA /* HistoryViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		D695FBEA2BCD186400E2D5DA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D695FBEB2BCD187600E2D5DA /* HistoryModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D695FBBC2BCD079500E2D5DA /* MaroneiaTheater */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D695FBDA2BCD079800E2D5DA /* Build configuration list for PBXNativeTarget "MaroneiaTheater" */;
+			buildPhases = (
+				D695FBB92BCD079500E2D5DA /* Sources */,
+				D695FBBA2BCD079500E2D5DA /* Frameworks */,
+				D695FBBB2BCD079500E2D5DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MaroneiaTheater;
+			packageProductDependencies = (
+				D695FBC22BCD079500E2D5DA /* RealityKitContent */,
+				D6800C1D2BCD82CD00999D9A /* Vortex */,
+				D681AC4E2BCDD26200CFC226 /* Marquee */,
+			);
+			productName = MaroneiaTheater;
+			productReference = D695FBBD2BCD079500E2D5DA /* MaroneiaTheater.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D695FBD12BCD079800E2D5DA /* MaroneiaTheaterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D695FBDD2BCD079800E2D5DA /* Build configuration list for PBXNativeTarget "MaroneiaTheaterTests" */;
+			buildPhases = (
+				D695FBCE2BCD079800E2D5DA /* Sources */,
+				D695FBCF2BCD079800E2D5DA /* Frameworks */,
+				D695FBD02BCD079800E2D5DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D695FBD42BCD079800E2D5DA /* PBXTargetDependency */,
+			);
+			name = MaroneiaTheaterTests;
+			productName = MaroneiaTheaterTests;
+			productReference = D695FBD22BCD079800E2D5DA /* MaroneiaTheaterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D695FBB52BCD079500E2D5DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					D695FBBC2BCD079500E2D5DA = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					D695FBD12BCD079800E2D5DA = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = D695FBBC2BCD079500E2D5DA;
+					};
+				};
+			};
+			buildConfigurationList = D695FBB82BCD079500E2D5DA /* Build configuration list for PBXProject "MaroneiaTheater" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D695FBB42BCD079500E2D5DA;
+			packageReferences = (
+				D6800C1C2BCD82CD00999D9A /* XCRemoteSwiftPackageReference "Vortex" */,
+				D681AC4D2BCDD26200CFC226 /* XCRemoteSwiftPackageReference "Marquee" */,
+			);
+			productRefGroup = D695FBBE2BCD079500E2D5DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D695FBBC2BCD079500E2D5DA /* MaroneiaTheater */,
+				D695FBD12BCD079800E2D5DA /* MaroneiaTheaterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D695FBBB2BCD079500E2D5DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D695FBCC2BCD079700E2D5DA /* Preview Assets.xcassets in Resources */,
+				D695FBC92BCD079700E2D5DA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D695FBD02BCD079800E2D5DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D695FBB92BCD079500E2D5DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D695FBE32BCD100800E2D5DA /* Gallery.swift in Sources */,
+				D695FBE72BCD10F800E2D5DA /* HistoryViewModel.swift in Sources */,
+				D695FBE12BCD0F8100E2D5DA /* HomeView.swift in Sources */,
+				D695FBC72BCD079500E2D5DA /* ContentView.swift in Sources */,
+				D695FBC52BCD079500E2D5DA /* MaroneiaTheaterApp.swift in Sources */,
+				D695FBEC2BCD187600E2D5DA /* HistoryModel.swift in Sources */,
+				D6800C1B2BCD7AC700999D9A /* DetailsView.swift in Sources */,
+				D695FBF62BCD1DDD00E2D5DA /* Publications.swift in Sources */,
+				D695FBF02BCD1B9100E2D5DA /* WebVideo.swift in Sources */,
+				D695FBE52BCD10A700E2D5DA /* History.swift in Sources */,
+				D695FBF22BCD1BD200E2D5DA /* MediaView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D695FBCE2BCD079800E2D5DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D695FBD72BCD079800E2D5DA /* MaroneiaTheaterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D695FBD42BCD079800E2D5DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D695FBBC2BCD079500E2D5DA /* MaroneiaTheater */;
+			targetProxy = D695FBD32BCD079800E2D5DA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D695FBD82BCD079800E2D5DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = xros;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				XROS_DEPLOYMENT_TARGET = 1.1;
+			};
+			name = Debug;
+		};
+		D695FBD92BCD079800E2D5DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = xros;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+				XROS_DEPLOYMENT_TARGET = 1.1;
+			};
+			name = Release;
+		};
+		D695FBDB2BCD079800E2D5DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MaroneiaTheater/Preview Content\"";
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.template.MaroneiaTheater;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Debug;
+		};
+		D695FBDC2BCD079800E2D5DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MaroneiaTheater/Preview Content\"";
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.template.MaroneiaTheater;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Release;
+		};
+		D695FBDE2BCD079800E2D5DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.template.MaroneiaTheaterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MaroneiaTheater.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MaroneiaTheater";
+				XROS_DEPLOYMENT_TARGET = 1.1;
+			};
+			name = Debug;
+		};
+		D695FBDF2BCD079800E2D5DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.template.MaroneiaTheaterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MaroneiaTheater.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MaroneiaTheater";
+				XROS_DEPLOYMENT_TARGET = 1.1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D695FBB82BCD079500E2D5DA /* Build configuration list for PBXProject "MaroneiaTheater" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D695FBD82BCD079800E2D5DA /* Debug */,
+				D695FBD92BCD079800E2D5DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D695FBDA2BCD079800E2D5DA /* Build configuration list for PBXNativeTarget "MaroneiaTheater" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D695FBDB2BCD079800E2D5DA /* Debug */,
+				D695FBDC2BCD079800E2D5DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D695FBDD2BCD079800E2D5DA /* Build configuration list for PBXNativeTarget "MaroneiaTheaterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D695FBDE2BCD079800E2D5DA /* Debug */,
+				D695FBDF2BCD079800E2D5DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D6800C1C2BCD82CD00999D9A /* XCRemoteSwiftPackageReference "Vortex" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/twostraws/Vortex.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		D681AC4D2BCDD26200CFC226 /* XCRemoteSwiftPackageReference "Marquee" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftUIKit/Marquee.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.3.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D6800C1D2BCD82CD00999D9A /* Vortex */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D6800C1C2BCD82CD00999D9A /* XCRemoteSwiftPackageReference "Vortex" */;
+			productName = Vortex;
+		};
+		D681AC4E2BCDD26200CFC226 /* Marquee */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D681AC4D2BCDD26200CFC226 /* XCRemoteSwiftPackageReference "Marquee" */;
+			productName = Marquee;
+		};
+		D695FBC22BCD079500E2D5DA /* RealityKitContent */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RealityKitContent;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = D695FBB52BCD079500E2D5DA /* Project object */;
+}
